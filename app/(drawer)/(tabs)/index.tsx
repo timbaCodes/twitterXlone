@@ -1,6 +1,6 @@
 import { FlatList, Pressable, StyleSheet, View, Text } from "react-native";
-import Tweet from "../../components/Tweet";
-import tweets from "../../assets/data/tweets";
+import Tweet from "../../../components/Tweet";
+import tweets from "../../../assets/data/tweets";
 import { Entypo } from "@expo/vector-icons";
 import { Link } from "expo-router";
 
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#1D9BF0",
     borderRadius: 25,
 
-    padding : 15,
+    padding: 15,
 
     position: "absolute",
     right: 15,
