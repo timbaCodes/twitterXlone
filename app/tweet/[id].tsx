@@ -5,7 +5,7 @@ import { useGlobalSearchParams, useSearchParams } from "expo-router";
 
 export default function TweetScreen() {
   const { id } = useGlobalSearchParams();
-  console.warn(id);
+  // console.warn(id);
 
   const tweet = tweets.find((t) => t.id === id);
   if (!tweet) {
